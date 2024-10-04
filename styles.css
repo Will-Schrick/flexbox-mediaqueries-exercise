@@ -1,0 +1,50 @@
+
+
+@media (max-width:600px) {
+    header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: no wrap;
+        background-color: #4CAF50;
+        font: white;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: no wrap;
+        flex-direction: column;
+        background-color: #f39c12;
+        font: white;
+        }
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: no wrap;
+        list-style: none;
+
+        
+        }   
+    main {
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        
+        }
+    .sidebar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: no wrap;
+        background-color: #ecf0f1;
+    }
+    aside {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        border-width: 15px;
+    }
+}
+
+
