@@ -6,7 +6,7 @@
         justify-content: center;
         flex-wrap: no wrap;
         background-color: #4CAF50;
-        font: white;
+       
     }
     nav {
         display: flex;
@@ -44,7 +44,51 @@
         flex-direction: column;
         padding: 15px;
         border-width: 15px;
+        
+        
     }
+    .main-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        border-width: 15px;
+        background-color:#e74c3c;
+    }
+    .main-content h2 {
+        color: white;
+        margin: 0px;
+        }
+     .main-content p {
+            color: white;
+            margin: 0px;
+            }
+
+     
+
+    .services {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        border-width: 15px;
+        background-color: #27ae60;
+    }
+    .testimonials {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 15px;
+        border-width: 15px;
+        background-color: #f39c12;
+    }
+
+
+    h1 {
+        color: white;
+        }
+
+      
 }
 
 
